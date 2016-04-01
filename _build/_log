@@ -1,0 +1,64 @@
+### Starting build.
+# Target: moogle.ml.depends, tags: { extension:ml, file:moogle.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules moogle.ml > moogle.ml.depends # cached
+# Target: crawl.ml.depends, tags: { extension:ml, file:crawl.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules crawl.ml > crawl.ml.depends # cached
+# Target: dict.ml.depends, tags: { extension:ml, file:dict.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules dict.ml > dict.ml.depends # cached
+# Target: order.ml.depends, tags: { extension:ml, file:order.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules order.ml > order.ml.depends # cached
+# Target: order.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:order.cmo, file:order.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o order.cmo order.ml # cached
+# Target: dict.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:dict.cmo, file:dict.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o dict.cmo dict.ml # cached
+# Target: pagerank.ml.depends, tags: { extension:ml, file:pagerank.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules pagerank.ml > pagerank.ml.depends
+# Target: graph.ml.depends, tags: { extension:ml, file:graph.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules graph.ml > graph.ml.depends # cached
+# Target: myset.ml.depends, tags: { extension:ml, file:myset.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules myset.ml > myset.ml.depends # cached
+# Target: myset.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:myset.cmo, file:myset.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o myset.cmo myset.ml # cached
+# Target: graph.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:graph.cmo, file:graph.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o graph.cmo graph.ml # cached
+# Target: nodescore.ml.depends, tags: { extension:ml, file:nodescore.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules nodescore.ml > nodescore.ml.depends # cached
+# Target: nodescore.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:nodescore.cmo, file:nodescore.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o nodescore.cmo nodescore.ml # cached
+# Target: util.ml.depends, tags: { extension:ml, file:util.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules util.ml > util.ml.depends # cached
+# Target: util.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:util.cmo, file:util.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o util.cmo util.ml # cached
+# Target: query.ml.depends, tags: { extension:ml, file:query.ml, ocaml, ocamldep, quiet }
+/usr/local/bin/ocamldep.opt -modules query.ml > query.ml.depends # cached
+# Target: query.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:query.cmo, file:query.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o query.cmo query.ml # cached
+# Target: pagerank.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:pagerank.cmo, file:pagerank.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o pagerank.cmo pagerank.ml
+# Target: crawl.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:crawl.cmo, file:crawl.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o crawl.cmo crawl.ml # cached
+# Target: moogle.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:moogle.cmo, file:moogle.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -o moogle.cmo moogle.ml # cached
+# Target: moogle.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:moogle.d.cmo, file:moogle.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o moogle.d.cmo moogle.ml # cached
+# Target: crawl.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:crawl.d.cmo, file:crawl.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o crawl.d.cmo crawl.ml # cached
+# Target: util.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:util.d.cmo, file:util.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o util.d.cmo util.ml # cached
+# Target: pagerank.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:pagerank.d.cmo, file:pagerank.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o pagerank.d.cmo pagerank.ml
+# Target: dict.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:dict.d.cmo, file:dict.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o dict.d.cmo dict.ml # cached
+# Target: order.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:order.d.cmo, file:order.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o order.d.cmo order.ml # cached
+# Target: query.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:query.d.cmo, file:query.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o query.d.cmo query.ml # cached
+# Target: graph.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:graph.d.cmo, file:graph.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o graph.d.cmo graph.ml # cached
+# Target: myset.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:myset.d.cmo, file:myset.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o myset.d.cmo myset.ml # cached
+# Target: nodescore.d.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:nodescore.d.cmo, file:nodescore.ml, implem, ocaml, quiet }
+/usr/local/bin/ocamlc.opt -c -g -o nodescore.d.cmo nodescore.ml # cached
+# Target: moogle.d.byte, tags: { byte, debug, dont_link_with, extension:byte, file:moogle.d.byte, link, ocaml, program, quiet }
+/usr/local/bin/ocamlc.opt unix.cma str.cma -g order.d.cmo dict.d.cmo myset.d.cmo graph.d.cmo nodescore.d.cmo util.d.cmo pagerank.d.cmo query.d.cmo crawl.d.cmo moogle.d.cmo -o moogle.d.byte
+# Compilation successful.
