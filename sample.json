@@ -1,0 +1,18 @@
+{
+"response": {
+	"next_page": <NEXT_PAGE_ID>,
+	"articles": [
+		{
+			"id": <ARTICLE_ID>,
+			"title": <TITLE>,
+			"authors": [<AUTHORS>],
+			"date": <DATE>,
+			"URL": <URL>,
+			"MAIN_IMG_URL": <MAIN_IMG_URL>,
+			"SOURCES": [<SOURCES>],
+			"TEXT": <TEXT>,
+			"RELATED": [<RELATED ARTICLES>]
+		},
+		...
+	]
+}}
